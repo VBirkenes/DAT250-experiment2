@@ -16,7 +16,7 @@ public class CreditCard {
     private Integer limit;
     private Integer balance;
 
-    @OneToOne
+    @ManyToOne
     private Bank bank;
 
     @OneToOne
