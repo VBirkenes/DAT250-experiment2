@@ -16,7 +16,7 @@ public class Person {
     @PrimaryKeyJoinColumn(name="creditcard_id")
     private CreditCard creditCard;
 
-    @OneToOne
+    @ManyToMany
     @PrimaryKeyJoinColumn(name="address")
     private Address address;
 }
